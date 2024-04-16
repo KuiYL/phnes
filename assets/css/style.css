@@ -1,0 +1,128 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+}
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-top {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    padding-left: 445px;    background: #000;
+    gap: 231px;
+}
+
+.blockOne {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.blockOne p {
+    font: 400 14px / 1.5 "Poppins", sans-serif;
+    color: #fafafa;
+}
+
+.blockOne a {
+    font: 600 14px / 1.71429 "Poppins", sans-serif;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #fafafa;
+}
+
+.blockTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.blockTwo p {
+    font: 400 14px / 1.5 "Poppins", sans-serif;
+    color: #fafafa;
+}
+
+
+.header-down{
+
+    display: flex;
+    align-items: center;
+    gap: 148px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+
+}
+
+.header-catalog {
+    display: flex;
+    gap: 48px;
+    font-size: 17px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.header-catalog a {
+    font: 400 16px / 1.5 "Poppins", sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.header-input {
+    position: relative;
+}
+
+.header-input input {
+    border-radius: 4px;
+    padding: 7px 12px 7px 20px;
+    width: 243px;
+    height: 38px;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
+.header-input button {
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    border: none;
+    background-color: #f5f5f5;
+
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.banner {
+    
+}
+.banner-parts {
+}
+.banner-left {
+}
+.textImg {
+}
+.banner-right {
+}
